@@ -1,7 +1,7 @@
 package com.example.data
 
 /**
- * AMT Tech Nova — Get Well Soon API Contract Specification v1.0
+ * CSVS IT Tech — Get Well Soon API Contract Specification v1.0
  *
  * Base URL: https://api.amazetechclans.com/getwellsoon/v1
  * Authentication: Bearer <JWT_TOKEN>

@@ -1,6 +1,6 @@
 {
   "name": "Get Well Soon",
-  "description": "AMT Tech Nova premium dual-app healthcare platform for Patients and Doctors",
+  "description": "CSVS IT Tech premium dual-app healthcare platform for Patients and Doctors",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

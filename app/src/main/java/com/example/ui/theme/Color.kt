@@ -2,7 +2,7 @@ package com.example.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// AMT Tech Nova Healthcare Palette
+// CSVS IT Tech Healthcare Palette
 // Patient App: Calming Medical Blue, Fresh Teal, Clinical Soft White/Blue
 val MedicalBluePrimary = Color(0xFF0284C7)      // Sky 600
 val MedicalBlueDark = Color(0xFF0369A1)         // Sky 700

@@ -65,7 +65,7 @@ fun EcosystemLaunchScreen(
             ) {
               Icon(
                 imageVector = Icons.Default.HealthAndSafety,
-                contentDescription = "AMT Health Logo",
+                contentDescription = "CSVS IT Tech Logo",
                 tint = Color.White,
                 modifier = Modifier.size(24.dp)
               )
@@ -73,7 +73,7 @@ fun EcosystemLaunchScreen(
             Spacer(modifier = Modifier.width(10.dp))
             Column {
               Text(
-                text = "AMT TECH NOVA",
+                text = "CSVS IT Tech",
                 style = MaterialTheme.typography.labelSmall.copy(
                   fontWeight = FontWeight.ExtraBold,
                   letterSpacing = 1.2.sp,
@@ -157,7 +157,7 @@ fun EcosystemLaunchScreen(
               Spacer(modifier = Modifier.height(10.dp))
 
               Text(
-                text = "Seamless two-app healthcare architecture powered by AMT Tech Nova. Connected schedule management, token queues, and digital clinic check-in.",
+                text = "Seamless two-app healthcare architecture powered by CSVS IT Tech. Connected schedule management, token queues, and digital clinic check-in.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = Color(0xFFCBD5E1)
               )

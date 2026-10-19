@@ -32,7 +32,7 @@ import com.example.model.*
 import com.example.ui.theme.*
 
 @Composable
-fun AmtEcosystemHeader(
+fun CsvsEcosystemHeader(
   currentMode: String,
   onSwitchMode: (String) -> Unit,
   isDarkTheme: Boolean,
@@ -73,7 +73,7 @@ fun AmtEcosystemHeader(
           ) {
             Icon(
               imageVector = if (currentMode == "DOCTOR") Icons.Default.MedicalServices else Icons.Default.HealthAndSafety,
-              contentDescription = "AMT Logo",
+              contentDescription = "CSVS IT Tech Logo",
               tint = Color.White,
               modifier = Modifier.size(20.dp)
             )
@@ -82,7 +82,7 @@ fun AmtEcosystemHeader(
           Column {
             Row(verticalAlignment = Alignment.CenterVertically) {
               Text(
-                text = "AMT TECH NOVA",
+                text = "CSVS IT Tech",
                 style = MaterialTheme.typography.labelSmall.copy(
                   fontWeight = FontWeight.Bold,
                   letterSpacing = 1.sp,
@@ -787,3 +787,14 @@ fun MedicalNetworkBackground(
       }
   )
 }
+
+
+@Deprecated("Use CsvsEcosystemHeader instead", ReplaceWith("CsvsEcosystemHeader(currentMode, onSwitchMode, isDarkTheme, onToggleTheme, modifier)"))
+@Composable
+fun AmtEcosystemHeader(
+  currentMode: String,
+  onSwitchMode: (String) -> Unit,
+  isDarkTheme: Boolean,
+  onToggleTheme: () -> Unit,
+  modifier: Modifier = Modifier
+) = CsvsEcosystemHeader(currentMode, onSwitchMode, isDarkTheme, onToggleTheme, modifier)

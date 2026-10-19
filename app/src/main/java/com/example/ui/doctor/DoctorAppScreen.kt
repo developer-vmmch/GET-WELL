@@ -13,7 +13,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.example.data.HealthcareRepository
 import com.example.model.*
-import com.example.ui.common.AmtEcosystemHeader
+import com.example.ui.common.CsvsEcosystemHeader
 
 @Composable
 fun DoctorAppScreen(
@@ -54,7 +54,7 @@ fun DoctorAppScreen(
   Scaffold(
     modifier = modifier.fillMaxSize(),
     topBar = {
-      AmtEcosystemHeader(
+      CsvsEcosystemHeader(
         currentMode = "DOCTOR",
         onSwitchMode = onSwitchMode,
         isDarkTheme = isDarkTheme,
